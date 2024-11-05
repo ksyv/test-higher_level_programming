@@ -42,11 +42,11 @@ class Rectangle(Shape):
 
     def area(self):
         """return the area of rectangle"""
-        return abs(self.width * self.height)
+        return (self.width * self.height)
     
     def perimeter(self):
         """return the perimeter of rectangle"""
-        return abs((self.width + self.height) * 2)
+        return ((self.width + self.height) * 2)
     
 def shape_info(shape):
     """print area n perimeter of shape"""
